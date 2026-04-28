@@ -1,0 +1,18 @@
+{
+  "version": "0.1.5",
+  "notes": "refactor: 将发布仓库配置从 secrets 迁移到 vars 并启用 Tauri 更新器工件生成\n\n将 GitHub Actions 中的 PUBLIC_RELEASE_REPO 和 PUBLIC_RELEASE_BRANCH 从 secrets 改为 vars 以提高配置透明度；在 Tauri 配置中新增 createUpdaterArtifacts 选项设置为 v1Compatible 以支持应用自动更新功能",
+  "pubDate": "2026-04-28T14:27:07.319Z",
+  "channel": "stable",
+  "isForce": false,
+  "downloadUrl": "https://github.com/heimiaoapp/heimiao-releases/releases/download/v0.1.5/嘿喵_0.1.0_x64-setup.nsis.zip",
+  "platforms": {
+    "darwin-aarch64": {
+      "path": "v0.1.5/嘿喵.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTEVMKzBCQjBERWJaclZDaXYzK2huL1l0Ly9NdFJGalUrVDR1YmdjRzV6YjFxMDducWpPZmg4bURRK3c5ekEwNURyR2ZzZFJxK0VqK3BZOWNkSlZ3eHN1Uko2RmFqMnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MzgzOTY0CWZpbGU65Zi/5Za1LmFwcC50YXIuZ3oKeWlXK2p0NTQ4WmU3VEx0Z1BaNzJPTW0vdUtPaW9kUWg4NTdDOHJ3c045ajlMVWN6Rk1TYURrR3hOL3lhNzNqWG8vTlpHaE9EYjhjeGR5VStzSzRPQ1E9PQo="
+    },
+    "windows-x86_64": {
+      "path": "v0.1.5/嘿喵_0.1.0_x64-setup.nsis.zip",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTEVMKzBCQjBERVh4NGJicGRQSE5nZ3pLY09ub0s2dkQ5MmphMGRQRjIvVFRoSkZRdWZob1ZBSFZRWWJJS0g4ZnV0YWUrRENvVjgwNGtOWko3c2pIbmJzNy9hOWE3UWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3Mzg0NjU4CWZpbGU65Zi/5Za1XzAuMS4wX3g2NC1zZXR1cC5uc2lzLnppcAp6b2NybURZNURMWlFvaHNEa3BYdCtuWjlERXlxRCtwMUQ4Qm02TldqY0dXc1BPY05qUS9DVnBjMzd3YUM2dHVpTnh2c25PUXpMTWcvbHU0SXJLYWNEZz09Cg=="
+    }
+  }
+}
